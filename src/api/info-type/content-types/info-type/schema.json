@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "info_types",
+  "info": {
+    "singularName": "info-type",
+    "pluralName": "info-types",
+    "displayName": "InfoType",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}
